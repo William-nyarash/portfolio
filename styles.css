@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width < 600px) {
     body {
       margin-left:40px;
     }
@@ -404,4 +404,31 @@ body{
 
 }
 
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(15, 27, 78);
+}
+
+footer{
+    padding: 1.1em;
+    background: #35344d;
+    color: rgb(221, 225, 228);
+    min-height: 300px;
+}
+.footer-cont{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+}
+footer .img-ft{
+    border: 2px solid red;
+    width: 200px;
+    height: 6rem;
+}
 
